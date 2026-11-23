@@ -1,36 +1,126 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+# NOVA CREATIVE – Digital Agency Website
 
-First, run the development server:
+A modern, responsive digital agency website built using Next.js and Tailwind CSS. NOVA CREATIVE showcases creative digital services, portfolio projects, and a contact section through a clean and professional user interface.
+
+## 🌐 Live Demo
+
+[View Live Website](https://nova-creative-website-bld6qbvge-pooja-ef5f.vercel.app)
+
+## ✨ Features
+
+- Modern and professional user interface
+- Responsive design for desktop and mobile devices
+- Light and dark mode toggle
+- Dedicated service pages
+- UI/UX Design showcase
+- Web Development showcase
+- Branding showcase
+- Digital Marketing showcase
+- Portfolio section with creative project images
+- Contact form with client-side success message
+- SEO metadata configuration
+- Smooth hover effects and transitions
+
+## 🛠️ Technologies Used
+
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+- HTML
+- CSS
+- Git & GitHub
+- Vercel
+
+## 📂 Project Structure
+
+```text
+creative-agency/
+│
+├── app/
+│   ├── components/
+│   │   ├── Navbar.tsx
+│   │   ├── Hero.tsx
+│   │   ├── Services.tsx
+│   │   ├── Portfolio.tsx
+│   │   └── Contact.tsx
+│   │
+│   ├── services/
+│   │   ├── ui-ux-design/
+│   │   │   └── page.tsx
+│   │   ├── web-development/
+│   │   │   └── page.tsx
+│   │   ├── branding/
+│   │   │   └── page.tsx
+│   │   └── digital-marketing/
+│   │       └── page.tsx
+│   │
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+│
+├── public/
+├── package.json
+└── README.md
+```
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js
+- npm
+
+### Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Poojukutty/nova-creative-website.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd creative-agency
+```
+
+3. Install dependencies:
+
+```bash
+npm install
+```
+
+4. Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Open your browser and visit:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Available Service Pages
 
-## Learn More
+- `/services/ui-ux-design`
+- `/services/web-development`
+- `/services/branding`
+- `/services/digital-marketing`
 
-To learn more about Next.js, take a look at the following resources:
+## 📬 Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For project enquiries, visit the Contact section on the website.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 👩‍💻 Developed By
 
-## Deploy on Vercel
+**Pooja Karthikeyan**
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+GitHub: [Poojukutty](https://github.com/Poojukutty)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+© 2026 NOVA CREATIVE. All Rights Reserved.
