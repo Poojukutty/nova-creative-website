@@ -14,55 +14,55 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-slate-50 px-6 py-24 md:px-20"
+      className="bg-slate-50 px-6 py-24 transition-colors duration-300 dark:bg-slate-900 md:px-20"
     >
       <p className="text-sm font-bold uppercase tracking-widest text-blue-600">
         Get In Touch
       </p>
 
-      <h2 className="mt-4 mb-6 text-4xl font-extrabold text-slate-950 md:text-6xl">
+      <h2 className="mt-4 mb-6 text-4xl font-extrabold text-slate-950 dark:text-white md:text-6xl">
         Let's Work Together<span className="text-blue-600">.</span>
       </h2>
 
-      <p className="mb-12 max-w-xl text-slate-600">
+      <p className="mb-12 max-w-xl text-slate-600 dark:text-slate-300">
         Have a project in mind? Tell us about it.
         We would love to hear from you.
       </p>
 
       <form onSubmit={handleSubmit} className="max-w-2xl space-y-6">
         <div>
-          <label className="mb-2 block font-semibold text-slate-800">
+          <label className="mb-2 block font-semibold text-slate-800 dark:text-slate-200">
             Your Name
           </label>
           <input
             type="text"
             placeholder="Enter your name"
             required
-            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600"
+            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:placeholder:text-slate-500"
           />
         </div>
 
         <div>
-          <label className="mb-2 block font-semibold text-slate-800">
+          <label className="mb-2 block font-semibold text-slate-800 dark:text-slate-200">
             Email Address
           </label>
           <input
             type="email"
             placeholder="Enter your email"
             required
-            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600"
+            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:placeholder:text-slate-500"
           />
         </div>
 
         <div>
-          <label className="mb-2 block font-semibold text-slate-800">
+          <label className="mb-2 block font-semibold text-slate-800 dark:text-slate-200">
             Your Message
           </label>
           <textarea
             placeholder="Tell us about your project..."
             rows={5}
             required
-            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600"
+            className="w-full rounded-xl border border-slate-200 bg-white p-4 text-slate-900 outline-none focus:border-blue-600 dark:border-slate-700 dark:bg-slate-950 dark:text-white dark:placeholder:text-slate-500"
           />
         </div>
 
@@ -74,7 +74,7 @@ export default function Contact() {
         </button>
 
         {submitted && (
-          <p className="text-green-700">
+          <p className="text-green-700 dark:text-green-400">
             Thank you! Your form was submitted successfully.
           </p>
         )}
